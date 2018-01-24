@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+}
+
+.header{
+  text-align: center;
+  background-color: #7395AE;
+
+}
+
+.body{
+  background-color: #B1A296;
+
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#me{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
