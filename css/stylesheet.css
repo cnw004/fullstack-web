@@ -1,26 +1,28 @@
-* {
-  font-family: sans-serif;
-}
-
-.header{
+header{
   text-align: center;
-  background-color: #7395AE;
-
 }
 
-.body{
-  background-color: #B1A296;
-
+nav{
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-body{
-  margin: 0px;
-  padding: 0px;
+#about{
+  column-count: 2;
 }
 
-#me{
-  height: auto;
-  width: auto;
-  max-width: 300px;
-  max-height: 300px;
+#course-name{
+  text-align: center;
+  margin-top: 4;
+  margin-bottom: 4;
+}
+
+#download-resume{
+  text-align: center;
+  padding-top: 8;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
 }
