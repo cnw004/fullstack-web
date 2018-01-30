@@ -1,50 +1,53 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8" />
-  <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Nunito|Roboto+Mono|Open+Sans+Condensed:300|Raleway|Montserrat" rel="stylesheet">
   <title>Cole's Emporium</title>
 </head>
-<body>
+
+<body class="montserrat">
   <div id="top">
-    <header id="header">
-      <!-- <h1>Cole Whitley</h1> -->
-      <h1>Web Portfolio</h1>
-      <h2>Cole Whitley</h2>
+    <header id="header" class="centered">
+      <h1>Cole Whitley</h1>
       <p id="me">
-        <img src="img/me.png" alt="placeholder text for img"/>
+        <img src="img/me.png" alt="placeholder text for img" />
       </p>
       <p id="descriptors">
         Developer - Student - Dreamer
       </p>
     </header>
-    <nav>
+    <nav class="centered">
       This is my nav bar
     </nav>
   </div>
-  <div id="about">
-    The block of text below is about me / the course.
-    <p id="about-left">
+
+  <h2 id="course-name" class="centered"><hr style="display: inline-block; width: 100%;"/>Fullstack Web</h2>
+  <div id="about" class="columns">
+    <p id="about-left" class="no-top no-bottom">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <p id="about-right">
+    <p id="about-right" class="no-top no-bottom">
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    <p id="download-resume">
-      <a href="placeholder.pdf">Download Resume</a>
-    </p>
   </div>
+  <p id="download-resume" class="centered">
+    <a href="placeholder.pdf">Download Resume</a>
+  </p>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
+<!--      PROJECTS SECTION         -->
+  <h2 class="centered">Portfolio</h2>
+  <section id="portfolio" class="flex">
     <article id="project1">
 
-      <h4>Project 1 Name</h4>
+      <h3>Project 1</h3>
       <p id="project1-text">
         This is some info about project 1. Blah blah blah.
         <a href="link">This is a github link</a>
       </p>
-      <img id="project1-img" alt="placeholder text for img" src="img/"/>
+      <img id="project1-img" alt="placeholder text for img" src="img/" />
 
     </article>
     <article id="project2">
@@ -53,7 +56,7 @@
         This is some info about project 2. Blah blah blah.
         <a href="link">This is a github link</a>
       </p>
-      <img id="project2-img" alt="placeholder text for img" src="img/"/>
+      <img id="project2-img" alt="placeholder text for img" src="img/" />
 
 
     </article>
@@ -61,25 +64,26 @@
       <h3>Project 3</h3>
 
 
-        <p id="project3-text">
-          This is some info about project 3. Blah blah blah.
-          <a href="link">This is a github link</a>
-        </p>
-        <img id="project3-img" alt="placeholder text for img" src="img/"/>
+      <p id="project3-text">
+        This is some info about project 3. Blah blah blah.
+        <a href="link">This is a github link</a>
+      </p>
+      <img id="project3-img" alt="placeholder text for img" src="img/" />
 
 
     </article>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    Contact me box will go here.
+  <br /><br />
+  <section id="contact" class="columns no-bottom">
+    <h2>Contact Me</h2> Contact me box will go here.
   </section>
 
-  <footer id="footer">
-    There will be some sweet links to github etc here.<br />
-    © Cole Whitley 2018
+  <br /><br />
+  <footer id="footer" class="centered">
+    There will be some sweet links to github etc here.<br /> © Cole Whitley 2018
   </footer>
 
 </body>
+
 </html>

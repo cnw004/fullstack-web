@@ -1,0 +1,49 @@
+.montserrat{
+  font-family: Montserrat;
+}
+
+.centered{
+  text-align: center;
+}
+
+.columns{
+  column-count: 2;
+
+  h2{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.no-top{
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.no-bottom{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a:hover{
+  color: #b22222;
+}
+
+
+
+@media (max-width: 600px) {
+  .flex-centered {
+    flex-direction: column;
+  }
+  .project {
+    max-width: 300px;
+    width: 70%;
+  }
+}
