@@ -1,28 +1,37 @@
-header{
-  text-align: center;
-}
+.montserrat {
+  font-family: Montserrat; }
 
-nav{
-  text-align: center;
-  padding-bottom: 10px;
-}
+.centered {
+  text-align: center; }
 
-#about{
-  column-count: 2;
-}
+.columns {
+  column-count: 2; }
+  .columns h2 {
+    margin-top: 0;
+    margin-bottom: 0; }
 
-#course-name{
-  text-align: center;
-  margin-top: 4;
-  margin-bottom: 4;
-}
+.no-top {
+  padding-top: 0;
+  margin-top: 0; }
 
-#download-resume{
-  text-align: center;
-  padding-top: 8;
-}
+.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0; }
 
-p{
-  margin-top: 0;
-  margin-bottom: 0;
-}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a:hover {
+  color: #b22222; }
+
+@media (max-width: 600px) {
+  .flex-centered {
+    flex-direction: column; }
+
+  .project {
+    max-width: 300px;
+    width: 70%; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
