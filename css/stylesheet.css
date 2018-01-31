@@ -1,6 +1,9 @@
 hr {
   border-color: #000000; }
 
+.purple {
+  background-color: #8892be; }
+
 #download-resume {
   margin: auto; }
 
@@ -18,7 +21,8 @@ hr {
   text-align: center; }
 
 .columns {
-  column-count: 2; }
+  column-count: 2;
+  column-width: 300px; }
   .columns h2 {
     margin-top: 0;
     margin-bottom: 0; }

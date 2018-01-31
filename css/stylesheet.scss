@@ -1,9 +1,14 @@
 $BLACK: #000000;
 $RED: #b22222;
+$LIGHT_PURPLE: #8892be;
+
 hr{
   border-color: $BLACK;
 }
 
+.purple{
+  background-color: $LIGHT_PURPLE;
+}
 
 #download-resume{
   margin: auto;
@@ -27,6 +32,7 @@ hr{
 
 .columns{
   column-count: 2;
+  column-width: 300px;
 
   h2{
     margin-top: 0;
