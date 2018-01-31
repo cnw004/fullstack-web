@@ -1,3 +1,27 @@
+$BLACK: #000000;
+$RED: #b22222;
+$LIGHT_PURPLE: #8892be;
+
+hr{
+  border-color: $BLACK;
+}
+
+.purple{
+  background-color: $LIGHT_PURPLE;
+}
+
+#download-resume{
+  margin: auto;
+}
+
+#contact-me{
+  display: inline;
+  border-right: solid;
+  border-width: thin;
+  border-color: $BLACK;
+  padding-right: 5px;
+}
+
 .montserrat{
   font-family: Montserrat;
 }
@@ -8,6 +32,7 @@
 
 .columns{
   column-count: 2;
+  column-width: 300px;
 
   h2{
     margin-top: 0;
@@ -31,12 +56,38 @@
   align-items: center;
 }
 
-
-a:hover{
-  color: #b22222;
+.bordered{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px 5px 5px 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 
+a:hover{
+  color: $RED;
+}
+
+.separated{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button{
+  width: 100%;
+  max-width: 100px;
+  text-align: center;
+}
+
+.button:hover{
+  color: $RED;
+}
+
+.inline{
+  display: inline;
+  margin-left: 10px;
+}
 
 @media (max-width: 600px) {
   .flex-centered {
