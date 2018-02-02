@@ -1,3 +1,4 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 hr {
   border-color: #000000; }
 
@@ -67,11 +68,7 @@ a:hover {
   margin-left: 10px; }
 
 @media (max-width: 600px) {
-  .flex-centered {
-    flex-direction: column; }
-
-  .project {
-    max-width: 300px;
-    width: 70%; } }
+  .flex {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
