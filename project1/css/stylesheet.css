@@ -1,0 +1,89 @@
+body {
+  font-family: Montserrat;
+  padding-top: 70px;
+  background: #4e54c8;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb); }
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.right-bordered {
+  display: inline;
+  border-right: solid;
+  border-width: thin;
+  border-color: #000000;
+  padding-right: 5px; }
+
+.project {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px 5px 5px 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-color: #000000;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center; }
+  .project:hover {
+    border-color: #b22222; }
+
+.about-me {
+  margin: auto;
+  text-align: center; }
+  .about-me h1 {
+    margin-bottom: 0px; }
+  .about-me h3 {
+    margin-top: 0px; }
+
+.content {
+  width: 92%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 25px; }
+
+.description {
+  text-align: center; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.image-small {
+  width: 160px;
+  height: 144px; }
+
+.no-top {
+  margin-top: 0px; }
+
+/* large screen */
+@media (min-width: 950px) {
+  .project {
+    width: 31%;
+    margin-left: 5px;
+    margin-right: 5px; } }
+/* medium screen */
+@media (min-width: 668px) and (max-width: 949px) {
+  #box1 {
+    width: 48%;
+    margin-left: 5px;
+    margin-right: 5px; }
+
+  #box2 {
+    width: 48%;
+    margin-left: 5px;
+    margin-right: 5px; }
+
+  #box3 {
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
