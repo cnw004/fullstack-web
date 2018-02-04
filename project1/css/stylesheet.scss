@@ -12,6 +12,8 @@ body{
   background: #4e54c8; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 html * {
@@ -79,6 +81,7 @@ html * {
   display: flex;
   // justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .image{
@@ -131,6 +134,10 @@ footer{
     text-align: right;
   }
 
+  .flex{
+    margin-left: 20px;
+  }
+
   .project{
     width:30%;
     margin-left: 5px;
@@ -156,5 +163,8 @@ footer{
     width: 95%;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  .flex{
+    margin-left: 10px;
   }
 }
