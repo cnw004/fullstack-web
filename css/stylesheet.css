@@ -67,11 +67,7 @@ a:hover {
   margin-left: 10px; }
 
 @media (max-width: 600px) {
-  .flex-centered {
-    flex-direction: column; }
-
-  .project {
-    max-width: 300px;
-    width: 70%; } }
+  .flex {
+    width: 50%; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

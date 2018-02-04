@@ -90,11 +90,11 @@ a:hover{
 }
 
 @media (max-width: 600px) {
-  .flex-centered {
+  .flex {
     flex-direction: column;
   }
-  .project {
-    max-width: 300px;
-    width: 70%;
-  }
+  // .project {
+  //   max-width: 300px;
+  //   width: 70%;
+  // }
 }
