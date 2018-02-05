@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: Montserrat;
-  padding-top: 70px;
+  padding-top: 40px;
   background: #4e54c8;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb);
@@ -8,6 +11,10 @@ body {
   background: linear-gradient(to bottom, #4e54c8, #8f94fb);
   padding-left: 10px;
   padding-right: 10px; }
+
+#me {
+  width: 60%;
+  height: 60%; }
 
 article {
   background-color: #8892be; }
@@ -49,11 +56,7 @@ html * {
   border-style: solid;
   border-width: thin;
   border-radius: 5px 5px 5px 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   border-color: #000000;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
@@ -62,31 +65,34 @@ html * {
   .project:hover {
     border-color: #b22222; }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.column {
+  float: left;
+  width: 50%; }
+
 .about-me {
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  display: inline; }
   .about-me h1 {
     margin-bottom: 0px; }
   .about-me h3 {
     margin-top: 0px; }
 
 .content {
-  width: 92%;
+  width: 100%;
   border-radius: 10px;
   background-color: #ffffff;
   margin: auto;
-  padding: 25px; }
-
-.description {
-  text-align: center; }
+  padding: 15px; }
 
 .flex {
   display: flex;
   flex-wrap: wrap; }
-
-.image-small {
-  width: 160px;
-  height: 144px; }
 
 .no-top {
   margin-top: 0px; }
@@ -126,6 +132,13 @@ footer {
 
 /* large screen */
 @media (min-width: 992px) {
+  .coursework {
+    width: 99%; }
+
+  #me {
+    width: 40%;
+    height: 40%; }
+
   #box1 {
     text-align: left; }
 
@@ -135,33 +148,19 @@ footer {
   #box3 {
     text-align: right; }
 
-  .flex {
-    margin-left: 20px; }
-
   .project {
-    width: 30%;
-    margin-left: 5px;
-    margin-right: 5px; } }
+    width: 33%; } }
 /* medium screen */
 @media (min-width: 768px) and (max-width: 991px) {
   #box1 {
-    width: 46%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 50%;
     text-align: left; }
 
   #box2 {
-    width: 46%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 50%;
     text-align: right; }
 
   #box3 {
-    width: 95%;
-    margin-left: 5px;
-    margin-right: 5px; }
-
-  .flex {
-    margin-left: 10px; } }
+    width: 100%; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

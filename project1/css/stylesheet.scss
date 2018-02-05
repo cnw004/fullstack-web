@@ -6,15 +6,23 @@ $YELLOW: #FFFF00;
 $GREEN: #7CFC00;
 $PINK: #FFB6C1;
 
+*{
+  box-sizing: border-box;
+}
 
 body{
   font-family: Montserrat;
-  padding-top: 70px;
+  padding-top: 40px;
   background: #4e54c8; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #4e54c8, #8f94fb);
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#me{
+  width: 60%;
+  height: 60%;
 }
 
 article{
@@ -63,11 +71,9 @@ html * {
   border-style: solid;
   border-width: thin;
   border-radius: 5px 5px 5px 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   border-color: $BLACK;
-  margin-left: 10%;
-  margin-right: 10%;
+  // margin-left: 10%;
+  // margin-right: 10%;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
@@ -79,9 +85,21 @@ html * {
   }
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
 .about-me{
   margin: auto;
   text-align: center;
+  display: inline;
 
   h1{
     margin-bottom: 0px;
@@ -93,15 +111,11 @@ html * {
 }
 
 .content{
-  width: 92%;
+  width: 100%;
   border-radius: 10px;
   background-color: #ffffff;
   margin: auto;
-  padding: 25px;
-}
-
-.description{
-  text-align: center;
+  padding: 15px;
 }
 
 .flex{
@@ -109,14 +123,6 @@ html * {
   // justify-content: center;
   flex-wrap: wrap;
 
-}
-
-.image{
-
-  &-small{
-    width: 160px;
-    height: 144px;
-  }
 }
 
 .no-top{
@@ -167,6 +173,15 @@ footer{
 
 /* large screen */
 @media (min-width: 992px){
+  .coursework{
+    width: 99%;
+  }
+  
+  #me{
+    width: 40%;
+    height: 40%;
+  }
+
   #box1{
     text-align: left;
   }
@@ -177,37 +192,34 @@ footer{
     text-align: right;
   }
 
-  .flex{
-    margin-left: 20px;
-  }
 
   .project{
-    width:30%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width:33%;
+    // margin-left: 5px;
+    // margin-right: 5px;
   }
 }
 
 /* medium screen */
 @media (min-width: 768px) and (max-width: 991px){
   #box1{
-    width: 46%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 50%;
+    // margin-left: 5px;
+    // margin-right: 5px;
     text-align: left;
   }
   #box2{
-    width: 46%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 50%;
+    // margin-left: 5px;
+    // margin-right: 5px;
     text-align: right;
   }
   #box3{
-    width: 95%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100%;
+    // margin-left: 5px;
+    // margin-right: 5px;
   }
   .flex{
-    margin-left: 10px;
+    // margin-left: 10px;
   }
 }
