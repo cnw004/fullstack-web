@@ -1,10 +1,11 @@
 $BLACK: #000000;
 $RED: #b22222;
+$LIGHT_PURPLE: #8892be;
+$CYAN: #00FFFF;
+$YELLOW: #FFFF00;
+$GREEN: #7CFC00;
+$PINK: #FFB6C1;
 
-#about-paragraph{
-  margin-right: 10%;
-  margin-left: 10%;
-}
 
 body{
   font-family: Montserrat;
@@ -16,6 +17,16 @@ body{
   padding-right: 10px;
 }
 
+article{
+  background-color: $LIGHT_PURPLE;
+}
+
+h2{
+  border-style: solid;
+  border-width: 1px;
+}
+
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -26,6 +37,22 @@ html * {
   border-width: thin;
   border-color: $BLACK;
   padding-right: 5px;
+}
+
+.coursework{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px 5px 5px 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-color: $BLACK;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: $LIGHT_PURPLE;
 }
 
 .bottom{
@@ -112,15 +139,31 @@ footer{
   margin-bottom: 5px;
 }
 
-// @media (max-width: 600px) {
-//   .flex {
-//     flex-direction: column;
-//     .project{
-//       margin-top: 5px;
-//       margin-bottom: 5px;
-//     }
-//   }
-// }
+
+#about-paragraph{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#sample-coursework{
+  background-color: $CYAN;
+  display: inline-block;
+}
+
+#project1{
+  background-color: $YELLOW;
+  display: inline-block;
+}
+
+#project2{
+  background-color: $GREEN;
+  display: inline-block;
+}
+
+#project3{
+  background-color: $PINK;
+  display: inline-block;
+}
 
 /* large screen */
 @media (min-width: 992px){
