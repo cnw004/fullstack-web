@@ -1,0 +1,149 @@
+$BLACK: #000000;
+$RED: #b22222;
+$LIGHT_PURPLE: #8892be;
+$CYAN: #00FFFF;
+$YELLOW: #FFFF00;
+$GREEN: #7CFC00;
+$PINK: #FFB6C1;
+
+
+body{
+  font-family: Montserrat;
+  padding-top: 40px;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#me{
+  width: 60%;
+  height: 60%;
+}
+
+article{
+  background-color: $LIGHT_PURPLE;
+}
+
+h2{
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.right-bordered{
+  display: inline;
+  border-right: solid;
+  border-width: thin;
+  border-color: $BLACK;
+  padding-right: 5px;
+}
+
+.coursework{
+  border-color: $BLACK;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: $LIGHT_PURPLE;
+}
+
+.padded{
+  padding: 5px;
+}
+
+.bordered{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px 5px 5px 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bottom{
+  margin-bottom: 5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.about-me{
+  margin: auto;
+  text-align: center;
+  display: inline;
+
+  h1{
+    margin-bottom: 0px;
+  }
+
+  h3{
+    margin-top: 0px;
+  }
+}
+
+.content{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 15px;
+}
+
+.no-top{
+  margin-top: 0px;
+}
+
+.no-bottom{
+  margin-bottom: 0px;
+}
+
+.link{
+  text-align: center;
+  margin: auto;
+}
+
+footer{
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+#about-paragraph{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#sample-coursework{
+  background-color: $CYAN;
+  display: inline-block;
+}
+
+#project1{
+  background-color: $YELLOW;
+  display: inline-block;
+}
+
+#project2{
+  background-color: $GREEN;
+  display: inline-block;
+}
+
+#project3{
+  background-color: $PINK;
+  display: inline-block;
+}
