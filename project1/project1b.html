@@ -5,71 +5,97 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Cole's Emporium</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/project1b.css">
+  <link rel="stylesheet" href="css/project1bfinal.css">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7CNunito%7CRoboto+Mono%7COpen+Sans+Condensed:300%7CRaleway%7CMontserrat" rel="stylesheet">
 </head>
 
 <body>
-  <div class="about-me row">
-    <div class="column">
-      <h1 class="no-top">Cole Whitley</h1>
+
+  <!-- header with navbar -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="nav-bar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#nav-bar">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#coursework">Coursework</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- info about me, and my picture -->
+  <div class="row pt-5 pl-5">
+    <div class="col-8 pt-5">
+      <h1>Cole Whitley</h1>
       <p>
         I am a Senior at Bucknell University studying Computer Science and Engineering. I am passionate about creating software to enable business. My interests include cloud computing, machine learning, and cooking. I strive to write software that enables others to live their lives more freely.
         <br />Contact me at colewhit29@gmail.com
       </p>
     </div>
-    <div class="column">
-      <img id="me" src="../img/me.png" alt="placeholder text for img" />
+    <div class="col-4">
+      <img src="../img/me.png" alt="placeholder for img"/>
     </div>
 
   </div>
 
-  <div class="content">
+  <!-- container that will hold all the other good stuff -->
+  <div class="p-5 m-5 border rounded" id="coursework">
 
-    <div class="coursework bordered padded">
-    <h2 id="sample-coursework" class="no-bottom no-top">Sample Coursework</h2>
-      <p class="no-top no-bottom">
-        <a href="../assets/fontfun.html">Font Fun</a> was an assignment that helped us pick a font for our portfolio.
-      </p>
-
-      <p class="no-bottom">
-        More assignments coming soon!
+    <!-- Sample Coursework -->
+    <div class="mt-1 mb-1 border border-dark rounded pl-1 pt-1 content">
+      <h2 class="border" id="sample-coursework">Sample Coursework</h2>
+      <p>Below is some sample coursework from this class.</p>
+      <p>
+        <a href="../assets/fontfun.html">Font Fun</a> was an assignment that helped us pick a font for our portfolio.<br />
+        <a href="./project1a.html">Project1a</a> was creating the page you are currently looking at, but without the help of bootstrap.<br />
+        <a href="./carousel.html">Carousel</a> was a side exploration into the carousel component of bootstrap.<br />
+        <a href="./jumbotron.html">Jumbotron</a> was a side exploration into the jumbotron component of bootstrap. I also explored the nav bar here.
       </p>
     </div>
 
-    <div class="container-fluid">
+    <!-- Section for the project grid -->
+    <section class="container-fluid" id="projects">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 bordered padded">
-          <h2 class="no-top" id="project1">Project 1</h2>
-          <p class="no-top">
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 border border-dark rounded content pt-1">
+          <h2 class="border" id="project1">Project 1</h2>
+          <p>
             For this project I made this page. This page was made to work on our ability to place divs and also to apply special css rules to our divs. This also helped us learn responsive design by making
-            us learn how to use flex boxes to fit three different size screens. Here is some more text to make this paragraph look a little bit longer! Lets write one more sentence to make it even longer!
+            us learn how to use flex boxes to fit three different size screens. Finally, I used bootstrap CSS to completely rewrite the page, and it wa much more simple!
           </p>
           Responsive Design
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 bordered padded">
-          <h2 class="no-top" id="project2">Project 2</h2>
-          <p class="no-top">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </article>
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 border border-dark rounded content pt-1">
+          <h2 class="border" id="project2">Project 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
           Gathering intel.
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 bordered padded">
-          <h2 class="no-top" id="project3">Project 3</h2>
-          <p class="no-top">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </article>
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 border border-dark rounded content pt-1">
+          <h2 class="border" id="project3">Project 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
           Gathering intel.
-        </div>
+        </article>
       </div>
-    </div>
-
+    </section>
 
   </div>
 
-  <footer>
+  <!-- <footer>
     © Cole Whitley 2018
-  </footer>
+  </footer> -->
 
 </body>
 </html>
