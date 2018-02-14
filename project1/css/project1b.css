@@ -6,6 +6,9 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #4e54c8, #8f94fb); }
 
+a {
+  color: #b22222; }
+
 .content {
   background-color: #8892be; }
 
