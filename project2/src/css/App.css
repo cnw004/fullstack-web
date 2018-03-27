@@ -1,0 +1,41 @@
+.App {
+  /* text-align: center; */
+  /* background: #4e54c8; 
+  background: -webkit-linear-gradient(to bottom, #003865, #4e54c8);
+  background: linear-gradient(to bottom, #003865, #4e54c8); */
+  height: 100vh;
+  /* color: white; */
+}
+
+.Banner{
+  height: 100px;
+  display: flex;
+  background: #003865; 
+  color: white;
+  margin-bottom: 16px;
+}
+
+#Logo {
+  /* animation: App-logo-spin 1s linear; */
+  height: 100px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
